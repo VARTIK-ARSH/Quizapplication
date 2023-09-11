@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6B81F8"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/competition_quiz"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:onClick="main_btn"
+        android:textStyle="bold"
+        android:text="PLAY" />
+
+
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:onClick="main_btn"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="EXIT" />
+
+
+</LinearLayout>
